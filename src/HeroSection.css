@@ -1,0 +1,76 @@
+.hero-section {
+    width: 100vw;
+    /* overflow: hidden; */
+  }
+  
+  .hero-slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  .hero-content {
+    color: white;
+    z-index: 10;
+    max-width: 600px;
+    /* margin-bottom: 50px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: flex-start; */
+  }
+  
+  /* Align text based on slide */
+  .content-align-0,
+  .content-align-1 {
+    text-align: left;
+  }
+  
+  .content-align-2 {
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-animate {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #ff7043;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-animate:hover {
+    background-color: #ff5722;
+    transform: scale(1.05);
+  }
+  
+  /* Background images */
+  .slide-0 {
+    background-image: url('https://res.cloudinary.com/dxgbxchqm/image/upload/v1709702469/background_esalfb.jpg');
+  }
+  
+  .slide-1 {
+    background-image: url('https://res.cloudinary.com/dxgbxchqm/image/upload/v1745911150/360_F_468555226_7nWJXhSCEEVMy0lkGfBx41ipoWARNVAw_klgzth.jpg');
+  }
+  
+  .slide-2 {
+    background-image: url('https://res.cloudinary.com/dxgbxchqm/image/upload/v1745912631/67208068_vtyysr.webp');
+  }
+  
