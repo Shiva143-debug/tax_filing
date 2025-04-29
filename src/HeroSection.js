@@ -116,13 +116,13 @@ const HeroSection = () => {
         {
             title: "Premium Solutions",
             subtitle: "Unlock the potential of our premium features.",
-            buttonText: "Get Started",
+            buttonText: "Book Appointment",
             buttonAnimation: "slide-from-top",
         },
         {
             title: "Join Us Now",
             subtitle: "Be a part of our growing community.",
-            buttonText: "Sign Up",
+            buttonText: "Book Appointment",
             buttonAnimation: "slide-from-right",
         },
     ];

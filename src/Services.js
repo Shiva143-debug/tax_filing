@@ -32,7 +32,7 @@ const services = [
   {
     icon: <FaEdit size={36} />,
     title: 'Amendment',
-    description: 'An amended return is a return filed in order to make corrections to a tax return from a ...'
+    description: 'An amended return is a return filed in order to make corrections ...'
   },
   {
     icon: <FaFolderOpen size={36} />,
@@ -47,7 +47,7 @@ const services = [
   {
     icon: <FaIdBadge size={36} />,
     title: 'ITIN Processing',
-    description: 'An Individual Taxpayer Identification Number (ITIN) is a tax processing number ...'
+    description: 'An Individual Taxpayer Identification Number (ITIN) is a tax ...'
   },
   {
     icon: <FaPercentage size={36} />,
